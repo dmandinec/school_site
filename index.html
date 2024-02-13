@@ -1,38 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Y2K Aesthetic Site</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <title>dmandinec</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: #0C0C0C;
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #0000FF;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            color: #FFFFFF;
+            margin: 0;
+        }
+        nav ul {
+            padding: 0;
+            list-style-type: none;
+        }
+        nav li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        section {
+            padding: 60px 20px 20px;
+            margin-top: 60px;
+        }
+        .box {
+            background: #FF00FF;
+            padding: 20px;
+            margin: 0 -20px;
+        }
+        footer {
+            background: #0000FF;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        .caption {
+            text-align: center;
+        }
+        .obrazek {
+            width: 25%;
+            height: auto;
+            margin: 0 auto 10px;
+        }
+    </style>
 </head>
 <body>
 <header>
-    <h1>Y2K Aesthetic Site</h1>
+    <h1>Moje mega skareda stranka</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Bezdomovec</a></li>
+            <li><a href="#sluzby">Služby</a></li>
+            <li><a href="#about">O nás</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
 </header>
-<nav>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
 <main>
     <section id="home">
-        <h2>Welcome to the Y2K Site</h2>
-        <p>This is a Y2K-inspired website with all the retro vibes.</p>
+        <div class="box">
+            <h2>Vitaj doktore</h2>
+            <p>Tato tu čast stranky bude o hovne. Ne tedka seriozne, bude o tom jak kvalitne privitat navstevniky z kosmíru.</p>
+        </div>
+        <div class="obrazek">
+            <img src="/src/img1.jpeg" alt="Quality meme">
+        </div>
+        <div class="caption">Skareda stranka lol</div>
+    </section>
+    <section id="sluzby">
+        <div class="box">
+            <h2>Nase sluzby</h2>
+            <p>Odrazujeme od rasizmu velice kvalitními argumenty jako třeba. Protože prostě protože</p>
+        </div>
     </section>
     <section id="about">
-        <h2>About Us</h2>
-        <p>Learn more about our Y2K passion and projects.</p>
+        <div class="box">
+            <h2>O nás, bez nás.</h2>
+            <p>Věděli jste že kapela RadioHead vydala v roce 2007 album, které bylo zadarmo a hodnotilo se tím, kolik jste nechali spropitné?</p>
+        </div>
     </section>
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Get in touch for more Y2K goodness.</p>
+    <section id="kontakt">
+        <div class="box">
+            <h2>Kontakt</h2>
+            <p>Jak mě kontaktovat??????</p>
+            <p>Prosím nedělejte to. Pweatty pwease.👉👈</p>
+        </div>
     </section>
 </main>
+<br><br>
 <footer>
-    <p>© 2024 Y2K Aesthetic Site</p>
+    <p>Skareda stranka</p>
 </footer>
 </body>
 </html>
