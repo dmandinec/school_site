@@ -1,1 +1,1 @@
-# school_site
+# Školní Webová stránka
