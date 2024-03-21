@@ -45,6 +45,7 @@
             background: #FF00FF;
             padding: 20px;
             margin: 0 -20px;
+            text-align: center;
         }
         footer {
             background: #0000FF;
@@ -69,6 +70,18 @@
             height: auto;
             margin: 0 auto 10px;
         }
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .spinningpic {
+            animation: spin 2s linear infinite;
+        }
+
     </style>
 </head>
 <body>
@@ -104,6 +117,9 @@
         <div class="box">
             <h2>O nás, bez nás.</h2>
             <p>Věděli jste že kapela RadioHead vydala v roce 2007 album, které bylo zadarmo a hodnotilo se tím, kolik jste nechali spropitné?</p>
+            <div class="spinningpic">
+                <img src="/src/img2.gif" alt="Quality meme">
+            </div>
         </div>
     </section>
     <section id="kontakt">
