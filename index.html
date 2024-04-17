@@ -81,7 +81,21 @@
         .spinning {
             animation: spin 2s linear infinite;
         }
+        .transform-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
 
+        .transform-button:active {
+            transform: scale(0.95);
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
@@ -101,6 +115,7 @@
         <div class="box">
             <h2>Vitaj doktore</h2>
             <p>Tato tu čast stranky bude o hovne. Ne tedka seriozne, bude o tom jak kvalitne privitat navstevniky z kosmíru.</p>
+            <button class="transform-button">Press Me</button>
         </div>
         <div class="obrazek">
             <img src="/src/img1.jpeg" alt="Quality meme">
