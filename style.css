@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 body {
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
@@ -8,34 +9,49 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
-    background: #0000FF;
+    background: rgba(0, 0, 255, 0.5); /* Semi-transparent blue */
     padding: 20px;
     text-align: center;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    backdrop-filter: blur(10px); /* Blur effect */
 }
+
 header h1 {
     color: #FFFFFF;
     margin: 0;
 }
+
 nav ul {
     padding: 0;
     list-style-type: none;
 }
+
 nav li {
     display: inline;
     margin-right: 10px;
 }
+
 nav a {
     color: #FFFFFF;
     text-decoration: none;
 }
+
 section {
     padding: 60px 20px 20px;
     margin-top: 60px;
+}
+
+.box {
+    background: rgba(255, 0, 255, 0.5); /* Semi-transparent magenta */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    backdrop-filter: blur(10px); /* Blur effect */
 }
 .box {
     background: #FF00FF;
@@ -43,15 +59,7 @@ section {
     margin: 0 -20px;
     text-align: center;
 }
-footer {
-    background: #0000FF;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+
 img {
     max-width: 100%;
     height: auto;
@@ -65,32 +73,6 @@ img {
     width: 25%;
     height: auto;
     margin: 0 auto 10px;
-}
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-.spinning {
-    animation: spin 2s linear infinite;
-}
-.transform-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: white;
-    background-color: #007BFF;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.transform-button:active {
-    transform: scale(0.95);
-    background-color: #1186F6;
 }
 .ajframe{
     display: flex;
