@@ -4,14 +4,14 @@ body {
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background: #0C0C0C;
+    background: #8B008B; /* Dark magenta background */
     color: #FFFFFF;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background: rgba(0, 0, 255, 0.5); /* Semi-transparent blue */
+    background: rgba(139, 0, 139, 0.5); /* Semi-transparent dark magenta */
     padding: 20px;
     text-align: center;
     position: fixed;
@@ -48,16 +48,10 @@ section {
 }
 
 .box {
-    background: rgba(255, 0, 255, 0.5); /* Semi-transparent magenta */
+    background: rgba(199, 21, 133, 0.5); /* Semi-transparent medium violet red */
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
     backdrop-filter: blur(10px); /* Blur effect */
-}
-.box {
-    background: #FF00FF;
-    padding: 20px;
-    margin: 0 -20px;
-    text-align: center;
 }
 
 img {
@@ -66,15 +60,28 @@ img {
     display: block;
     margin: 0 auto 10px;
 }
+
 .caption {
     text-align: center;
 }
+
 .obrazek {
     width: 25%;
     height: auto;
     margin: 0 auto 10px;
 }
-.ajframe{
+
+.ajframe {
     display: flex;
     justify-content: center;
+}
+
+footer {
+    background: #C71585; /* Medium violet red */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
